@@ -20,7 +20,7 @@ However, due to the increased power output, noise problems started to appear. He
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/bd87070c-e410-43da-8b08-45bec3fb4cd0" width="400">
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/20ad45cc-2a31-4a03-9f25-fd292fdbec68" width="400">
 
-Now, with all this extra power, the secondary coil started overheating, so I would a much larger coil with thicker copper wire. This also meant upsizing the primary, topload etc.
+Now, with all the extra power, the secondary coil started overheating, so I was forced to make a much larger coil with thicker copper wire. This also meant upsizing the primary coil, topload etc.
 
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/d974c124-91df-469a-bf85-7bcca7193f0a" width="400">
 
