@@ -1,0 +1,6 @@
+- Make sure to use raspberry pi legacy OS
+- Enable i2c
+- Install PIL by running: sudo apt-get install python3-pil python3-pil.imagetk
+- To launch on start up, use the . desktop method in:
+https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all
+
