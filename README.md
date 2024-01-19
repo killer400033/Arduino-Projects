@@ -1,5 +1,7 @@
 ### A collection of my most notable electronics projects
 
+## Power Electronics
+
 # Tesla Coil
 
 The tesla coil went through many iterations but was always a CW SSTC (Continuous Wave Solid State Tesla Coil). 
@@ -31,6 +33,8 @@ Along with this, I also upgraded the Half-bridge to a Full bridge, doubling the 
 Hence, the latest iteration is able to produce pretty impressive arcs, however is prone to blowing up due to ringing in the MOSFETs.
 
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/d0ca7c86-2889-454d-b9fa-bd8acc099ad9" width="700">
+
+## Embeded Systems (Code can be found above)
 
 # DAC
 
