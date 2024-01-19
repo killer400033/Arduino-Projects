@@ -25,6 +25,7 @@ However, due to the increased power output, noise problems started to appear. He
 Now, with all the extra power, the secondary coil started overheating, so I was forced to make a much larger coil with thicker copper wire. This also meant upsizing the primary coil, topload etc.
 
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/fe2be34f-4235-431c-b9c6-1bb22d52f794" width="400">
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/c6dd459c-5b32-4ac6-815e-4ee2220afc6d" width="400">
 
 Along with this, I also upgraded the Half-bridge to a Full bridge, doubling the voltage across the primary. I also did some further research on how to reduce inductances in the Full bridge design, and finally built the following:
 
