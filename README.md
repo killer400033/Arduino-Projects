@@ -1,4 +1,4 @@
-### A Collection of my most notable Arduino projects
+### A collection of my most notable Arduino projects
 
 # DAC
 
