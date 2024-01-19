@@ -160,7 +160,7 @@ void loop() {
           // ON: 12, OFF: 11, 8
           // LOW SIDE:
           // ON: 3, OFF: 10, 9
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00010000;
@@ -175,7 +175,7 @@ void loop() {
           // ON: 11, OFF: 12, 8
           // LOW SIDE:
           // ON: 3, OFF: 10, 9
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00001000;
@@ -190,7 +190,7 @@ void loop() {
           // ON: 11, OFF: 12, 8
           // LOW SIDE:
           // ON: 10, OFF: 9, 3
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00001000;
@@ -205,7 +205,7 @@ void loop() {
           // ON: 8, OFF: 12, 11
           // LOW SIDE:
           // ON: 10, OFF: 9, 3
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00000001;
@@ -220,7 +220,7 @@ void loop() {
           // ON: 8, OFF: 12, 11
           // LOW SIDE:
           // ON: 9, OFF: 10, 3
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00000001;
@@ -235,7 +235,7 @@ void loop() {
           // ON: 12, OFF: 11, 8
           // LOW SIDE:
           // ON: 9, OFF: 10, 3
-          delayMicroseconds(5);
+          delayMicroseconds(5); // These delays are to charge the bootstrap capacitor for the MOSFET driver
           PORTB = 0;
           delayMicroseconds(1);
           PORTB = B00010000;
