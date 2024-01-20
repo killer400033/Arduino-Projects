@@ -75,7 +75,7 @@ All in all, there were 3 modes to choose from; Metric Threading, Imperial Thread
 
 Platform: Atmega328p/Atmega168p
 
-This was a super simple soldering iron station station I made, with one Arduino to control the PWM output, and another to control a display. I made it by opening a 24V Power supply and hijacking the switching MOSFETs gate signal, and driving it with the Arduino instead. I implemented a super simple control loop that sort of resembles a PI loop but not really.
+This was a super simple soldering iron station station I made, with one Arduino to control the PWM output, and another to control a display. I made it by opening a 24V Power supply and hijacking the switching MOSFETs gate signal, and driving it with the Arduino instead. I implemented a super simple control loop that sort of resembles a PI loop but isn't really one.
 
 ## TV Surround Sound Control
 
