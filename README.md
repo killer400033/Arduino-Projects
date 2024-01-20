@@ -64,9 +64,9 @@ In highschool we got a Lathe, but it lacked most of the change gears in the back
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/1ec9a15b-5f39-43e3-be79-5842f442d02b" width="400">
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/61dffea5-2e77-4f9d-b79e-a160a078c375" width="400">
 
-Once a setting was chosen using the keypad, the data would be sent to the Arduino Due using I2C, which would then send signals to a stepper motor whilst also keeping track of an encoder (Arduino Due had hardware encoder support which made this much faster). The encoder was connected to where the old change gears went, hence keeping track of the chuck position. With this, the Arduino due would apply a multiplier according to the given threading/ power feed ratio and spin the stepper motor accordingly. The motor and encoder setup can be seen below
+Once a setting was chosen using the keypad, the data would be sent to the Arduino Due using I2C, which would then send signals to a stepper motor whilst also keeping track of an encoder (Arduino Due had hardware encoder support which made this much faster). The encoder was connected to where the old change gears went, hence keeping track of the chuck position. With this, the Arduino due would apply a multiplier according to the given threading/ power feed ratio and spin the stepper motor accordingly. The motor and encoder setup can be seen below:
 
-<img src="https://github.com/killer400033/Other-Projects/assets/37206981/9b5a8ff4-cf02-4533-b711-5e847d6fde43" width="400">
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/9b5a8ff4-cf02-4533-b711-5e847d6fde43" width="600">
 
 All in all, there were 3 modes to choose from; Metric Threading, Imperial Threading and Power Feed. In all modes, soft start and stop functionality was added to avoid the stepper motor skipping steps.
 
