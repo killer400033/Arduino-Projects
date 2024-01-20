@@ -59,7 +59,16 @@ This was some code I wrote for my brother's keyboard which he had build, based o
 
 Platform: Arduino DUE and Raspberry Pi
 
-In highschool we got a Lathe, but it lacked most of the change gears in the back and so basically couldn't do any threading or power feed. Hence these 2 projects were made to motorise the lead screw. The Lathe_Lead_Screw project was written for an Arduino DUE and runs all the real-time calculations for reading an encoder position and driving the stepper motor accordingly. The Lathe_Raspberry_Pi project is the interface and communicates to the Arduino through I2C. The final product had 3 modes, metric threading, imperial threading and power feed.
+In highschool we got a Lathe, but it lacked most of the change gears in the back and so basically couldn't do any threading or power feed. Hence these 2 projects were made to motorise the lead screw. The Lathe_Raspberry_Pi project is the interface and communicates to the Arduino through I2C. It ran an full UI interface on a 800x600 monitor, with inputs done by a keypad as shown:
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/8dd1cb18-9010-4a77-a58f-709fabad939b" width="400">
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/1ec9a15b-5f39-43e3-be79-5842f442d02b" width="400">
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/61dffea5-2e77-4f9d-b79e-a160a078c375" width="400">
+
+Once a setting was chosen using the keypad, the data would be sent to the Arduino Due using I2C, which would then send signals to a stepper motor whilst also keeping track of an encoder (Arduino Due had hardware encoder support which made this much faster). The encoder was connected to where the old change gears went, hence keeping track of the chuck position. With this, the Arduino due would apply a multiplier according to the given threading/ power feed ratio and spin the stepper motor accordingly. The motor and encoder setup can be seen below
+
+<img src="https://github.com/killer400033/Other-Projects/assets/37206981/9b5a8ff4-cf02-4533-b711-5e847d6fde43" width="400">
+
+All in all, there were 3 modes to choose from; Metric Threading, Imperial Threading and Power Feed. In all modes, soft start and stop functionality was added to avoid the stepper motor skipping steps.
 
 ## Soldering Iron Display and Soldering Iron PWM
 
