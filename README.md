@@ -60,6 +60,7 @@ This was some code I wrote for my brother's keyboard which he had build, based o
 Platform: Arduino DUE and Raspberry Pi
 
 In highschool we got a Lathe, but it lacked most of the change gears in the back and so basically couldn't do any threading or power feed. Hence these 2 projects were made to motorise the lead screw. The Lathe_Raspberry_Pi project is the interface and communicates to the Arduino through I2C. It ran an full UI interface on a 800x600 monitor, with inputs done by a keypad as shown:
+
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/8dd1cb18-9010-4a77-a58f-709fabad939b" width="400">
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/1ec9a15b-5f39-43e3-be79-5842f442d02b" width="400">
 <img src="https://github.com/killer400033/Other-Projects/assets/37206981/61dffea5-2e77-4f9d-b79e-a160a078c375" width="400">
